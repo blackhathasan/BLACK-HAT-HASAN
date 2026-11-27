@@ -5,9 +5,9 @@ const ownerNumber = configuredOwnerNumber || "+8801310471603";
 const configuredPrefix = process.env.PREFIX;
 const prefix = configuredPrefix === undefined || configuredPrefix === "" ? "." : String(configuredPrefix);
 
-const channel = Object.freeze({
+const channel: Object.freeze({
   name: "BLACK HAT HASAN",
-  jid: "120363430518511561@newsletter"
+  link: "Message Offline on WhatsApp. https://wa.me/8801310471603"
 });
 
 export default Object.freeze({
